@@ -1,0 +1,4 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "Library") (type "KiCad") (uri "${KIPRJMOD}/3D Models/AI_3035_TT_12V_R/Library.pretty") (options "") (descr ""))
+)

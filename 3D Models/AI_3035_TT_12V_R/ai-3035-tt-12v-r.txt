@@ -1,0 +1,16 @@
+﻿"Symbol";"Value";"Unit";
+"REFERENCE";"AI-3035-TT-12V-R";"";
+"TraceParts.PartVersion";"1.0.0";"";
+"SUPPLIER";"PUI Audio";"";
+"Width";"30.20";"";
+"PinSpacing";"15.00";"";
+"TraceParts.PartNumber";"90-02072021-054017";"";
+"TraceParts.PartLanguage";"en";"";
+"DESIGN";"Indicators, 20 mm Height, 30.2 mm Width, 30.2 mm Length";"";
+"LeadTime";"67";"";
+"Length";"30.20";"";
+"PkgQty";"50/TRAY 1K/CTN";"";
+"TraceParts.PartTitle";"Indicators, 20 mm Height, 30.2 mm Width, 30.2 mm Length";"";
+"Height";"20.00";"";
+"Features";"High output combined with wide voltage range";"";
+"TraceParts.InstanceId";"90-02072021-0540172N3XX9WWY2MK673V115V3T3RA";"";
