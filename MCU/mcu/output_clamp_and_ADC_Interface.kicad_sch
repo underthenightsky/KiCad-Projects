@@ -792,6 +792,172 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:D_Schottky"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "D_Schottky"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Schottky diode"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "diode Schottky"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "D_Schottky_0_1"
+				(polyline
+					(pts
+						(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "D_Schottky_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:R"
 			(pin_numbers
 				(hide yes)
@@ -932,11 +1098,13 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Diode:ESD5Zxx"
+		(symbol "power:GND"
+			(power global)
 			(pin_numbers
 				(hide yes)
 			)
 			(pin_names
+				(offset 0)
 				(hide yes)
 			)
 			(exclude_from_sim no)
@@ -944,28 +1112,8 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "ESD5Zxx"
-				(at 0 -2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Diode_SMD:D_SOD-523"
-				(at 0 -4.445 0)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -975,7 +1123,17 @@
 					)
 				)
 			)
-			(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/esd5z2.5t1-d.pdf"
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -986,7 +1144,7 @@
 					)
 				)
 			)
-			(property "Description" "ESD Protection Diode, SOD-523"
+			(property "Datasheet" ""
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -997,7 +1155,7 @@
 					)
 				)
 			)
-			(property "ki_keywords" "esd tvs unidirectional diode"
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1008,7 +1166,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "D?SOD?523*"
+			(property "ki_keywords" "global power"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1019,22 +1177,10 @@
 					)
 				)
 			)
-			(symbol "ESD5Zxx_0_1"
+			(symbol "GND_0_1"
 				(polyline
 					(pts
-						(xy -1.27 -1.27) (xy -1.27 1.27) (xy -0.762 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy -1.27 0)
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
 					)
 					(stroke
 						(width 0)
@@ -1044,24 +1190,12 @@
 						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
 			)
-			(symbol "ESD5Zxx_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1076,30 +1210,118 @@
 						)
 					)
 				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 			)
 			(embedded_fonts no)
 		)
 	)
+	(junction
+		(at 143.51 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e99d55da-32b4-449a-8cca-dd960c76ce4a")
+	)
+	(wire
+		(pts
+			(xy 157.48 72.39) (xy 157.48 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d475872-fdb1-426d-b55d-9c752d6a4d63")
+	)
+	(wire
+		(pts
+			(xy 143.51 45.72) (xy 143.51 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d4ddba9-cf21-4780-9893-3c177f674af1")
+	)
+	(wire
+		(pts
+			(xy 187.96 45.72) (xy 143.51 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40237e0d-73d6-452c-b01b-2fdbae802e20")
+	)
+	(wire
+		(pts
+			(xy 157.48 96.52) (xy 158.75 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4fba75cb-4724-43c1-87af-cb4e0fbb56a5")
+	)
+	(wire
+		(pts
+			(xy 118.11 78.74) (xy 118.11 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79207166-3344-4696-b8c0-cbfd4fb5f927")
+	)
+	(wire
+		(pts
+			(xy 125.73 73.66) (xy 143.51 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c0ef6d4-1b11-45a7-9204-805314fb58a2")
+	)
+	(wire
+		(pts
+			(xy 146.05 73.66) (xy 146.05 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8dc13eb5-5f00-44e6-8cfa-77b6dfcb9e9e")
+	)
+	(wire
+		(pts
+			(xy 39.37 78.74) (xy 118.11 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "907c9c3b-3b76-4077-ab2a-19fb28b9f9d6")
+	)
+	(wire
+		(pts
+			(xy 143.51 73.66) (xy 146.05 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d259263f-fd28-4689-b3df-ae3dcb70c207")
+	)
+	(wire
+		(pts
+			(xy 153.67 72.39) (xy 157.48 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f2e4e3b3-19a0-4734-a601-e8d9a5cf8eb9")
+	)
 	(hierarchical_label "In"
-		(shape output)
+		(shape input)
 		(at 39.37 78.74 180)
 		(effects
 			(font
@@ -1110,8 +1332,8 @@
 		(uuid "d8afad64-ee4a-40ab-8d54-95cb1dd99e81")
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 64.77 48.26 90)
+		(lib_id "Device:D_Schottky")
+		(at 149.86 72.39 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1120,9 +1342,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "00f3f32b-c9a4-4154-ab7f-705934d03192")
-		(property "Reference" "R9"
-			(at 64.77 41.91 90)
+		(uuid "0e119c25-0b7f-4824-8568-ca3a4a6f644f")
+		(property "Reference" "D8"
+			(at 149.5425 66.04 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1131,8 +1353,8 @@
 				)
 			)
 		)
-		(property "Value" "R"
-			(at 64.77 44.45 90)
+		(property "Value" "ESD5Z3.3TiG"
+			(at 149.5425 68.58 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1142,7 +1364,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 64.77 50.038 90)
+			(at 149.86 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1153,7 +1375,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 64.77 48.26 0)
+			(at 149.86 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1163,8 +1385,8 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 64.77 48.26 0)
+		(property "Description" "Schottky diode"
+			(at 149.86 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1173,17 +1395,95 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(pin "2"
-			(uuid "721cbf22-f3b5-4412-a732-09b6812ca485")
 		)
 		(pin "1"
-			(uuid "b652dabf-2b1f-4ded-b283-0e5de05e705a")
+			(uuid "02a90402-a770-4ee3-badb-494bdd8605bb")
+		)
+		(pin "2"
+			(uuid "dabe20ca-031b-4b2f-90ad-f501e5d3c60a")
 		)
 		(instances
 			(project "mcu"
 				(path "/a05656f2-56dd-4122-820d-a34d3928231b/7e909fd8-f3c4-41fd-9605-74d0338eac58"
-					(reference "R9")
+					(reference "D8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 158.75 96.52 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "77bb4415-a5b7-4bd4-9e20-67d95feb234a")
+		(property "Reference" "#PWR021"
+			(at 158.75 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 158.75 101.6 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 158.75 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 158.75 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 158.75 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "09fa9226-86c5-45a2-b5bf-76372bfdcdd4")
+		)
+		(instances
+			(project "mcu"
+				(path "/a05656f2-56dd-4122-820d-a34d3928231b/7e909fd8-f3c4-41fd-9605-74d0338eac58"
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -1380,8 +1680,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:ESD5Zxx")
-		(at 113.03 49.53 0)
+		(lib_id "Device:R")
+		(at 121.92 73.66 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1390,9 +1690,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "c55a4e2d-e516-4164-b1c1-e80caaef4247")
-		(property "Reference" "D2"
-			(at 113.03 43.18 0)
+		(uuid "e04c68f6-c13b-47f6-bd6c-f546f244165b")
+		(property "Reference" "R12"
+			(at 121.92 67.31 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1401,8 +1701,8 @@
 				)
 			)
 		)
-		(property "Value" "ESD5Zxx"
-			(at 113.03 45.72 0)
+		(property "Value" "100"
+			(at 121.92 69.85 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1411,8 +1711,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-523"
-			(at 113.03 53.975 0)
+		(property "Footprint" ""
+			(at 121.92 75.438 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1422,8 +1722,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/esd5z2.5t1-d.pdf"
-			(at 113.03 49.53 0)
+		(property "Datasheet" ""
+			(at 121.92 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1433,8 +1733,8 @@
 				)
 			)
 		)
-		(property "Description" "ESD Protection Diode, SOD-523"
-			(at 113.03 49.53 0)
+		(property "Description" "Resistor"
+			(at 121.92 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1443,17 +1743,17 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(pin "1"
-			(uuid "d3b252b6-c7b7-45c3-abf4-8aecbbcab656")
 		)
 		(pin "2"
-			(uuid "9c7ff480-6cdb-40a8-b681-f23ecca45c71")
+			(uuid "a545df32-5bd3-4acb-8ef8-da1e07035e10")
+		)
+		(pin "1"
+			(uuid "51bfa962-1a39-45aa-a040-b1ba323b0246")
 		)
 		(instances
 			(project "mcu"
 				(path "/a05656f2-56dd-4122-820d-a34d3928231b/7e909fd8-f3c4-41fd-9605-74d0338eac58"
-					(reference "D2")
+					(reference "R12")
 					(unit 1)
 				)
 			)
