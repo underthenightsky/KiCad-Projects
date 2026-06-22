@@ -1812,7 +1812,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 69.342 58.42 90)
 			(hide yes)
 			(show_name no)
@@ -2331,7 +2331,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2_1x02_P5.00mm"
 			(at 53.34 58.42 0)
 			(hide yes)
 			(show_name no)

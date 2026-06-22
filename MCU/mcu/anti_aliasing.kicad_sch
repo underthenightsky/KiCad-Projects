@@ -1185,7 +1185,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 59.69 64.008 90)
 			(hide yes)
 			(show_name no)
@@ -1266,7 +1266,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 68.8848 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -1424,7 +1424,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:MSOP-8_3x3mm_P0.65mm"
 			(at 146.05 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -1523,7 +1523,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:MSOP-8_3x3mm_P0.65mm"
 			(at 205.74 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -1701,7 +1701,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:MSOP-8_3x3mm_P0.65mm"
 			(at 241.3 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -1799,7 +1799,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 175.26 56.388 90)
 			(hide yes)
 			(show_name no)
@@ -2035,7 +2035,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 190.5 87.9348 0)
 			(hide yes)
 			(show_name no)
@@ -2194,7 +2194,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 107.95 91.1352 0)
 			(hide yes)
 			(show_name no)
@@ -2274,7 +2274,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 81.28 64.008 90)
 			(hide yes)
 			(show_name no)
