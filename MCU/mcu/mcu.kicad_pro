@@ -8,7 +8,7 @@
       "internal_id": "",
       "mfg": "",
       "mpn": "",
-      "sch_revision": "v14_6_2026_1"
+      "sch_revision": ""
     },
     "layer_pairs": [],
     "layer_presets": [],
@@ -252,13 +252,11 @@
     }
   },
   "libraries": {
-    "pinned_footprint_libs": [
-      "Library"
-    ],
+    "pinned_footprint_libs": [],
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "my_project.kicad_pro",
+    "filename": "mcu.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -343,19 +341,19 @@
           "group_by": true,
           "label": "DNP",
           "name": "${DNP}",
-          "show": false
+          "show": true
         },
         {
           "group_by": true,
           "label": "Exclude from BOM",
           "name": "${EXCLUDE_FROM_BOM}",
-          "show": false
+          "show": true
         },
         {
           "group_by": true,
           "label": "Exclude from Board",
           "name": "${EXCLUDE_FROM_BOARD}",
-          "show": false
+          "show": true
         },
         {
           "group_by": true,
@@ -367,50 +365,14 @@
           "group_by": false,
           "label": "Datasheet",
           "name": "Datasheet",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Sim.Pins",
-          "name": "Sim.Pins",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Sim.Type",
-          "name": "Sim.Type",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Sim.Device",
-          "name": "Sim.Device",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Description",
-          "name": "Description",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "#",
-          "name": "${ITEM_NUMBER}",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "DKPN",
-          "name": "DKPN",
-          "show": false
+          "show": true
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": true,
-      "name": "",
-      "sort_asc": false,
+      "name": "Default Editing",
+      "sort_asc": true,
       "sort_field": "Reference"
     },
     "bus_aliases": {},
@@ -449,18 +411,38 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "my_project.kicad_sch",
-        "name": "Root",
-        "uuid": "448a1e83-0781-4fe1-ae67-aa67168b41fd"
+        "filename": "mcu.kicad_sch",
+        "name": "mcu",
+        "uuid": "a05656f2-56dd-4122-820d-a34d3928231b"
       }
     ],
-    "used_designators": "",
+    "used_designators": "#PWR9,#PWR12-20,U1,U3,D2-6,C5-11,R7-11",
     "variants": []
   },
   "sheets": [
     [
-      "448a1e83-0781-4fe1-ae67-aa67168b41fd",
-      "Root"
+      "a05656f2-56dd-4122-820d-a34d3928231b",
+      "mcu"
+    ],
+    [
+      "7a76ff6f-6805-4348-9ded-bfb68948d758",
+      "signal_conditioning"
+    ],
+    [
+      "71f9a2b8-9ea7-4177-ab35-1f0a619c76d5",
+      "DC_Bias"
+    ],
+    [
+      "d9d41d52-a750-4c10-a354-fe076c41d7d7",
+      "anti_aliasing"
+    ],
+    [
+      "2be37222-3199-4eea-9ebc-35413e600cef",
+      "instrumentation_amplifier"
+    ],
+    [
+      "7e909fd8-f3c4-41fd-9605-74d0338eac58",
+      "output clamp and ADC Interface"
     ]
   ],
   "text_variables": {},
