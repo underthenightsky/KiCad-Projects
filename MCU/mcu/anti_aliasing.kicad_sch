@@ -1509,6 +1509,28 @@
 				)
 			)
 		)
+		(property "Sim.Library" "spice\\MCP6001_MM_G\\MCP6001.txt"
+			(at 146.05 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Name" "MCP6002"
+			(at 146.05 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "8"
 			(uuid "eab3ce2e-527a-4bbb-b41a-d358112cb33e")
 		)
@@ -1598,6 +1620,28 @@
 			)
 		)
 		(property "Description" "1MHz, Low-Power Op Amp, MSOP-8"
+			(at 205.74 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Library" "spice\\MCP6001_MM_G\\MCP6001.txt"
+			(at 205.74 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Name" "MCP6002"
 			(at 205.74 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -1776,6 +1820,28 @@
 			)
 		)
 		(property "Description" "1MHz, Low-Power Op Amp, MSOP-8"
+			(at 241.3 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Library" "spice\\MCP6001_MM_G\\MCP6001.txt"
+			(at 241.3 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Name" "MCP6002"
 			(at 241.3 132.08 0)
 			(hide yes)
 			(show_name no)
