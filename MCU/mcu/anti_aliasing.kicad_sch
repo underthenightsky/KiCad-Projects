@@ -827,6 +827,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text ".tran 10m 100m"
+		(exclude_from_sim no)
+		(at 71.374 111.76 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "6ba4d45a-15e3-437f-875b-7e04f397c108")
+	)
 	(junction
 		(at 129.54 93.98)
 		(diameter 0)
