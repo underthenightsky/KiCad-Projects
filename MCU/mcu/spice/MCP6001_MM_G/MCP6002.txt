@@ -1,4 +1,4 @@
-.SUBCKT MCP6001 1 2 3 4 5
+.SUBCKT MCP6002 1 2 3 4 5
 *               | | | | |
 *               | | | | Output
 *               | | | Negative Supply
