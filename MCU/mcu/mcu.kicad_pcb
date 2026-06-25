@@ -20,20 +20,12 @@
 		(7 "B.SilkS" user "B.Silkscreen")
 		(1 "F.Mask" user)
 		(3 "B.Mask" user)
-		(17 "Dwgs.User" user "User.Drawings")
-		(19 "Cmts.User" user "User.Comments")
-		(21 "Eco1.User" user "User.Eco1")
-		(23 "Eco2.User" user "User.Eco2")
 		(25 "Edge.Cuts" user)
 		(27 "Margin" user)
 		(31 "F.CrtYd" user "F.Courtyard")
 		(29 "B.CrtYd" user "B.Courtyard")
 		(35 "F.Fab" user)
 		(33 "B.Fab" user)
-		(39 "User.1" user)
-		(41 "User.2" user)
-		(43 "User.3" user)
-		(45 "User.4" user)
 	)
 	(setup
 		(stackup
@@ -113,7 +105,6 @@
 		)
 		(capping no)
 		(filling no)
-		(zone_defaults)
 		(pcbplotparams
 			(layerselection 0x00000000_00000000_55555555_5755f5ff)
 			(plot_on_all_layers_selection 0x00000000_00000000_00000000_00000000)
@@ -441,7 +432,7 @@
 			(size 1.025 1.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.243902)
-			(net "/anti_aliasing/Out")
+			(net "/instrumentation_amplifier/INA128_input")
 			(pintype "passive")
 			(uuid "acc08841-ed1b-4e5a-a4de-4afba1b9a41e")
 		)
@@ -522,6 +513,58 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "1adc6b77-afe6-4701-b9b1-7b1f93ba1b4f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Library" "spice\\BAT54S.spice.txt"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f6e3cecf-efa4-495a-898d-ef322626a7f8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Name" "DI_BAT54S"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1fd5ab45-5d6f-48ba-8ee2-df4289ebc2de")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "54fc2c95-aec5-4b3d-a6b3-4c62d62455cd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=A 2=K"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1175cc3d-73c7-4c6c-bee8-f80dbf9d9483")
 			(effects
 				(font
 					(size 1 1)
@@ -1068,6 +1111,58 @@
 				)
 			)
 		)
+		(property "Sim.Library" "spice/MCP6001_MM_G/MCP6002.txt"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "496cdf51-73fe-4d39-af95-919f6aabf70d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Name" "MCP6002"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e2525368-e94b-4968-8d1f-26a00524985e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Device" "SUBCKT"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "785a1aa9-19de-468a-9d21-8e26a905c091")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=1 2=2 3=3 4=4 5=5"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f45ef62b-538c-42a8-a657-a30035d82a51")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "SOIC*3.9x4.9mm*P1.27mm* DIP*W7.62mm* TO*99* OnSemi*Micro8* TSSOP*3x3mm*P0.65mm* TSSOP*4.4x3mm*P0.65mm* MSOP*3x3mm*P0.65mm* SSOP*3.9x4.9mm*P0.635mm* LFCSP*2x2mm*P0.5mm* *SIP* SOIC*5.3x6.2mm*P1.27mm*")
 		(path "/d9d41d52-a750-4c10-a354-fe076c41d7d7/5b233e5b-00a7-4e78-81b9-496cf855cd5b")
 		(sheetname "/anti_aliasing/")
@@ -1357,7 +1452,7 @@
 			(size 1.625 0.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "/anti_aliasing/Out")
+			(net "/instrumentation_amplifier/INA128_input")
 			(pinfunction "-_6")
 			(pintype "input")
 			(uuid "20e94467-cc2d-4abb-beda-73175bec4ad2")
@@ -1367,7 +1462,7 @@
 			(size 1.625 0.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "/anti_aliasing/Out")
+			(net "/instrumentation_amplifier/INA128_input")
 			(pintype "output")
 			(uuid "2b0977f6-0b69-455c-b530-b04f9f2f05cc")
 		)
@@ -2762,7 +2857,7 @@
 			(size 1.025 1.4)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.243902)
-			(net "/anti_aliasing/Out")
+			(net "/instrumentation_amplifier/INA128_input")
 			(pintype "passive")
 			(uuid "eda1e26f-eea4-40af-a17a-ea85a53f8909")
 		)
@@ -4098,6 +4193,58 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "f56ff8b4-7a29-46ff-9569-473e237128e8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Library" "spice/CT_1_1000.txt"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3042a537-13e5-4177-acce-cd499f8ffe04")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Name" "CT_1_1000"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "33e21410-ccff-4718-a0e4-8fc1236ce0bc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Device" "SUBCKT"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "384790e2-c766-4807-9402-08c65c507ff8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=1 2=2 3=3 4=4"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4ddd2d90-f3cd-429a-9747-9647c820efa6")
 			(effects
 				(font
 					(size 1 1)
@@ -7285,7 +7432,7 @@
 			(size 0.8 0.95)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "/instrumentation_amplifier/Out")
+			(net "/instrumentation_amplifier/INA128_Output")
 			(pintype "passive")
 			(uuid "caa0ca44-9ab4-4378-bd52-334c5d7dd406")
 		)
@@ -7675,6 +7822,58 @@
 				)
 			)
 		)
+		(property "Sim.Library" "spice\\sbom763\\INA128_TINA_AIO\\INA128.LIB"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0e3cc4c9-823a-4158-9a22-ae021ef2f59b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Name" "INA128"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4543f4e3-8c7e-4232-9e27-07fecc7aad17")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Device" "SUBCKT"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cbbd562a-1e8e-4b4c-b2e7-736df1f2082c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=1 2=2 3=3 4=4 5=5 6=8 7=9 8=10"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7d7fc3f6-6c42-4880-823f-e0afe51f5ab5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "DIP*W7.62mm* SOIC*P1.27mm*")
 		(path "/2be37222-3199-4eea-9ebc-35413e600cef/ab63f48c-f4aa-405c-b92b-89a6fe9ba83a")
 		(sheetname "/instrumentation_amplifier/")
@@ -7957,7 +8156,7 @@
 			(size 1.95 0.6)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "/instrumentation_amplifier/Out")
+			(net "/instrumentation_amplifier/INA128_Output")
 			(pintype "output")
 			(uuid "b248919d-81b0-428c-930b-5e65ad11acd5")
 		)
@@ -10306,6 +10505,58 @@
 				)
 			)
 		)
+		(property "Sim.Library" "spice\\ESD5Z12.LIB"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5a5cd263-ccbd-4056-88df-c33df7e9c28f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Name" "esd5z12t1"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "387738a4-5067-49a7-99de-a492ad389b44")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Device" "SUBCKT"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8808bdfd-882f-48a9-9be8-f0ce144ef67a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=7 2=1"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c19f8cd4-9d0a-4497-88b2-5ecb3123ea60")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/7e909fd8-f3c4-41fd-9605-74d0338eac58/0e119c25-0b7f-4824-8568-ca3a4a6f644f")
 		(sheetname "/output clamp and ADC Interface/")
@@ -10531,6 +10782,56 @@
 				(xyz 0 0 0)
 			)
 		)
+	)
+	(gr_line
+		(start 72 68.5)
+		(end 72 135.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "374c6e69-c870-44d2-bc80-eca7129c7e17")
+	)
+	(gr_line
+		(start 72 68.5)
+		(end 176.5 68.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "8067c3ed-f1b8-41fb-911c-efcda33f929b")
+	)
+	(gr_line
+		(start 176.5 68.5)
+		(end 176.5 133)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "ecf0a0eb-c705-4f72-b857-30d0bf6e0f09")
+	)
+	(gr_line
+		(start 176.5 135.5)
+		(end 72 135.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "41ff9ccd-d162-44c3-9ce6-6dbe8be82b23")
+	)
+	(gr_line
+		(start 176.5 135.5)
+		(end 176.5 133)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "d09046f8-a2db-48fa-954e-48526bc9cae5")
 	)
 	(via
 		(at 167 70.5)
