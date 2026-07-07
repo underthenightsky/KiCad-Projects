@@ -93,7 +93,7 @@
 			(justify left bottom)
 		)
 		(uuid "a67c7e0b-6fd4-4200-b3c0-7e3a9189095e")
-		(property "Net Class" ".tran 0 100m"
+		(property "Netclass" ".tran 0 100m"
 			(at 48.9585 92.71 0)
 			(show_name no)
 			(do_not_autoplace no)
