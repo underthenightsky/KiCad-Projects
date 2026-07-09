@@ -106,8 +106,8 @@ V1     3  15  DC  1.700
   VSET2 3 44 DC 2.0
   QSET2 4 44 46 QY
 
-.model sp vswitch(ron=10 roff=100E3 von=.7 voff=1) 
-.model sm vswitch(ron=10 roff=100E3 von=-.7 voff=-1)
+.model sp SW(Ron=10 Roff=100k Von=0.7 Voff=1)
+.model sm SW(Ron=10 Roff=100k Von=-0.7 Voff=-1)
 .MODEL DX D(IS=1.0E-24)
 .MODEL QX NPN(IS=800.0E-18 BF=500)
 .MODEL QY PNP(IS=800.0E-18 BF=500)

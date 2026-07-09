@@ -518,7 +518,12 @@
     },
     "net_colors": null,
     "netclass_assignments": null,
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "Default",
+        "pattern": "/test/Out"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
@@ -641,7 +646,7 @@
       "meta": {
         "version": 0
       },
-      "model_mode": 2,
+      "model_mode": 4,
       "workbook_filename": "mcu.wbk"
     },
     "page_layout_descr_file": "",
@@ -656,7 +661,7 @@
         "uuid": "a05656f2-56dd-4122-820d-a34d3928231b"
       }
     ],
-    "used_designators": "V2,D3-6,#PWR1-2,#PWR4-6,#PWR8-15,#PWR17-18,#PWR20,#PWR25-26,R2-7,R10,#FLG1,#FLG3,#FLG5-7,C1-6,C8-11,U1-2",
+    "used_designators": "#PWR12,#PWR16,#PWR27-33,C3,C7,C15,C17,R4,R8,R11,R14,U5,V5-6",
     "variants": []
   },
   "sheets": [
@@ -667,6 +672,10 @@
     [
       "7a76ff6f-6805-4348-9ded-bfb68948d758",
       "signal_conditioning"
+    ],
+    [
+      "46c1a3da-7fb1-4043-87bc-81091e4e8773",
+      "test"
     ],
     [
       "090f5bd0-76cd-4f87-9c27-4571509190da",

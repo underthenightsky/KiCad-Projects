@@ -202,6 +202,52 @@
 		)
 	)
 	(sheet
+		(at 66.04 92.71)
+		(size 12.7 6.35)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "46c1a3da-7fb1-4043-87bc-81091e4e8773")
+		(property "Sheetname" "test"
+			(at 66.04 91.9984 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "test.kicad_sch"
+			(at 66.04 99.6446 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "mcu"
+				(path "/a05656f2-56dd-4122-820d-a34d3928231b"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 118.11 36.83)
 		(size 49.53 17.78)
 		(exclude_from_sim no)
