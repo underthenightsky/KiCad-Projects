@@ -141,7 +141,8 @@ D98 4 5 DESD
 D99 5 3 DESD 
 *
 * Temperature / Voltage Sensitive IQuiscent
-R61 0 61 100 TC 3.11M 4.51U
+R61 0 61 100 tc1=3.11m tc2=4.51u
+
 G61 3 4 61 0 1
 G60 0 61 TABLE {V(3, 4)} 
 + ((0,0)(900M,0.0106U)(1.00,0.20U)(1.3,0.63U)
@@ -149,7 +150,7 @@ G60 0 61 TABLE {V(3, 4)}
 *
 * Temp Sensitive offset voltage 
 I73 0 70 DC 1uA 
-R74 0 70 1 TC=2 
+R61 0 61 100 tc1=3.11m tc2=4.51u
 E75 1 71 70 0 1 
 *
 * Temp Sensistive IBias 

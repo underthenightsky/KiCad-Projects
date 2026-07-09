@@ -2926,12 +2926,6 @@
 		(uuid "786480af-ca4d-4df7-affb-2bb4773368f2")
 	)
 	(junction
-		(at 196.85 26.67)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "81b898b8-5981-4ab7-b31c-783b09269458")
-	)
-	(junction
 		(at 242.57 27.94)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3307,16 +3301,6 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 25.4) (xy 196.85 26.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2235cc5d-e41c-42ae-8bbe-03e764b6a5a1")
-	)
-	(wire
-		(pts
 			(xy 213.36 91.44) (xy 213.36 125.73)
 		)
 		(stroke
@@ -3494,6 +3478,16 @@
 			(type default)
 		)
 		(uuid "4fba75cb-4724-43c1-87af-cb4e0fbb56a5")
+	)
+	(wire
+		(pts
+			(xy 196.85 25.4) (xy 196.85 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ff1dddc-c6ef-4341-a19b-4411caa54d68")
 	)
 	(wire
 		(pts
@@ -3884,16 +3878,6 @@
 			(type default)
 		)
 		(uuid "cbfa82e5-7576-417a-8a5f-4abd0d4194e4")
-	)
-	(wire
-		(pts
-			(xy 196.85 26.67) (xy 196.85 30.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cc8e8ee6-558e-4fc2-8833-70575b3b72df")
 	)
 	(wire
 		(pts
@@ -5357,85 +5341,6 @@
 			(project "mcu"
 				(path "/a05656f2-56dd-4122-820d-a34d3928231b/7e909fd8-f3c4-41fd-9605-74d0338eac58"
 					(reference "R12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 196.85 26.67 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e8261f22-e96b-4618-8a68-e2fb4def724b")
-		(property "Reference" "#FLG03"
-			(at 194.945 26.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 193.04 26.6699 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 196.85 26.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 196.85 26.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 196.85 26.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "b4c051b7-3d72-4dbf-b85c-8d504d941c03")
-		)
-		(instances
-			(project "mcu"
-				(path "/a05656f2-56dd-4122-820d-a34d3928231b/7e909fd8-f3c4-41fd-9605-74d0338eac58"
-					(reference "#FLG03")
 					(unit 1)
 				)
 			)
