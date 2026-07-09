@@ -125,7 +125,7 @@
 		)
 		(uuid "f0a559eb-2b02-4f96-94bc-5f4a31905d84")
 	)
-<<<<<<< Updated upstream
+
 	(wire
 		(pts
 			(xy 105.41 44.45) (xy 118.11 44.45)
@@ -202,8 +202,7 @@
 			)
 		)
 	)
-=======
->>>>>>> Stashed changes
+
 	(sheet
 		(at 66.04 92.71)
 		(size 12.7 6.35)
