@@ -30,26 +30,6 @@
           "color": "rgb(228, 26, 28)",
           "signal": "V(/Out) (gain)",
           "trace_type": 521
-        },
-        {
-          "color": "rgb(55, 126, 184)",
-          "signal": "V(Net-_U2A-+_) (phase)",
-          "trace_type": 517
-        },
-        {
-          "color": "rgb(55, 126, 184)",
-          "signal": "V(Net-_U2A-+_) (gain)",
-          "trace_type": 521
-        },
-        {
-          "color": "rgb(77, 175, 74)",
-          "signal": "V(Net-_U2B-+_) (phase)",
-          "trace_type": 517
-        },
-        {
-          "color": "rgb(77, 175, 74)",
-          "signal": "V(Net-_U2B-+_) (gain)",
-          "trace_type": 521
         }
       ]
     }
