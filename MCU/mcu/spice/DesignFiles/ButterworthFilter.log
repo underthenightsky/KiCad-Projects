@@ -1,6 +1,6 @@
 LTspice 26.0.2 for Windows
-Circuit: C:\Users\dell5490\Downloads\DesignFiles\ButterworthFilter.net
-Start Time: Thu Jul 16 15:34:31 2026
+Circuit: C:\Users\dell5490\Documents\GitHub\KiCad-Projects\MCU\mcu\spice\DesignFiles\ButterworthFilter.net
+Start Time: Thu Jul 16 15:51:47 2026
 solver = Normal
 Maximum thread count: 4
 tnom = 27
@@ -10,9 +10,9 @@ Direct Newton iteration failed to find operating point.
 Starting Gmin stepping
 Gmin stepping succeeded in finding the operating point.
 
-Total elapsed time: 0.103 seconds.
+Total elapsed time: 0.118 seconds.
 
 Files loaded:
-C:\Users\dell5490\Downloads\DesignFiles\ButterworthFilter.net
+C:\Users\dell5490\Documents\GitHub\KiCad-Projects\MCU\mcu\spice\DesignFiles\ButterworthFilter.net
 C:\Users\dell5490\AppData\Local\LTspice\lib\sub\LTC7.lib
 
