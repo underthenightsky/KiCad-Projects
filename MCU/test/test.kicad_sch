@@ -5,7 +5,7 @@
 	(uuid "bd3bdaa8-5ce5-4be8-8454-eb7015d9fbff")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Amplifier_Operational:OPA2197xD"
+		(symbol "Amplifier_Operational:LT6237"
 			(pin_names
 				(offset 0.127)
 			)
@@ -15,7 +15,7 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "U"
-				(at 2.54 6.35 0)
+				(at 0 5.08 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -25,8 +25,8 @@
 					(justify left)
 				)
 			)
-			(property "Value" "OPA2197xD"
-				(at 2.54 3.81 0)
+			(property "Value" "LT6237"
+				(at 0 -5.08 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -36,8 +36,8 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-				(at 2.54 0 0)
+			(property "Footprint" ""
+				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -47,8 +47,8 @@
 					)
 				)
 			)
-			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/opa2197.pdf"
-				(at 6.35 3.81 0)
+			(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/623637fb.pdf"
+				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -58,7 +58,7 @@
 					)
 				)
 			)
-			(property "Description" "Dual 36V, Precision, Rail-to-Rail Input/Output, Low Offset Voltage, Operational Amplifier, SOIC-8"
+			(property "Description" "Dual 215MHz, Rail-to-Rail Output, 1.1nV/√Hz, 3.5mA, Operational Amplifier, MSOP-8/DFN-8"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -79,7 +79,7 @@
 					)
 				)
 			)
-			(property "ki_keywords" "dual opamp rtor"
+			(property "ki_keywords" "dual opamp"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -90,7 +90,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm*"
+			(property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm* DIP*W7.62mm* TO*99* OnSemi*Micro8* TSSOP*3x3mm*P0.65mm* TSSOP*4.4x3mm*P0.65mm* MSOP*3x3mm*P0.65mm* SSOP*3.9x4.9mm*P0.635mm* LFCSP*2x2mm*P0.5mm* *SIP* SOIC*5.3x6.2mm*P1.27mm*"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -101,10 +101,10 @@
 					)
 				)
 			)
-			(symbol "OPA2197xD_1_1"
+			(symbol "LT6237_1_1"
 				(polyline
 					(pts
-						(xy 5.08 0) (xy -5.08 5.08) (xy -5.08 -5.08) (xy 5.08 0)
+						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
 					)
 					(stroke
 						(width 0.254)
@@ -169,10 +169,10 @@
 					)
 				)
 			)
-			(symbol "OPA2197xD_2_1"
+			(symbol "LT6237_2_1"
 				(polyline
 					(pts
-						(xy 5.08 0) (xy -5.08 5.08) (xy -5.08 -5.08) (xy 5.08 0)
+						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
 					)
 					(stroke
 						(width 0.254)
@@ -237,9 +237,9 @@
 					)
 				)
 			)
-			(symbol "OPA2197xD_3_1"
+			(symbol "LT6237_3_1"
 				(pin power_in line
-					(at 0 -7.62 90)
+					(at -2.54 -7.62 90)
 					(length 3.81)
 					(name "V-"
 						(effects
@@ -257,7 +257,7 @@
 					)
 				)
 				(pin power_in line
-					(at 0 7.62 270)
+					(at -2.54 7.62 270)
 					(length 3.81)
 					(name "V+"
 						(effects
@@ -1144,12 +1144,6 @@
 		(uuid "26fa8be1-06f8-41ab-afef-dce57f46acbd")
 	)
 	(junction
-		(at 168.91 52.07)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "405b95d3-f5f6-489f-b824-25b32ec2c178")
-	)
-	(junction
 		(at 69.85 62.23)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1172,12 +1166,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b95a0832-8f31-44fa-ba97-21a7c9276ed7")
-	)
-	(junction
-		(at 241.3 46.99)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c5e5b612-d9c3-4e46-9a9e-489480b7043d")
 	)
 	(wire
 		(pts
@@ -1241,7 +1229,7 @@
 	)
 	(wire
 		(pts
-			(xy 240.03 46.99) (xy 241.3 46.99)
+			(xy 240.03 46.99) (xy 243.84 46.99)
 		)
 		(stroke
 			(width 0)
@@ -1371,7 +1359,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 16.51) (xy 168.91 16.51)
+			(xy 114.3 16.51) (xy 160.02 16.51)
 		)
 		(stroke
 			(width 0)
@@ -1401,16 +1389,6 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 52.07) (xy 171.45 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5d02285f-08be-4910-8409-5e30f0f5c346")
-	)
-	(wire
-		(pts
 			(xy 160.02 72.39) (xy 160.02 52.07)
 		)
 		(stroke
@@ -1421,7 +1399,7 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 17.78) (xy 241.3 17.78)
+			(xy 186.69 17.78) (xy 240.03 17.78)
 		)
 		(stroke
 			(width 0)
@@ -1461,7 +1439,7 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 17.78) (xy 241.3 46.99)
+			(xy 240.03 17.78) (xy 240.03 46.99)
 		)
 		(stroke
 			(width 0)
@@ -1491,7 +1469,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 52.07) (xy 168.91 52.07)
+			(xy 160.02 52.07) (xy 171.45 52.07)
 		)
 		(stroke
 			(width 0)
@@ -1508,16 +1486,6 @@
 			(type default)
 		)
 		(uuid "90880301-7cab-4394-9fa3-72b353c0779f")
-	)
-	(wire
-		(pts
-			(xy 241.3 46.99) (xy 243.84 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9566b2ef-8911-40bd-ad4a-27b5424a9db6")
 	)
 	(wire
 		(pts
@@ -1541,7 +1509,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 16.51) (xy 168.91 52.07)
+			(xy 160.02 16.51) (xy 160.02 52.07)
 		)
 		(stroke
 			(width 0)
@@ -1864,8 +1832,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Amplifier_Operational:OPA2197xD")
-		(at 236.22 132.08 0)
+		(lib_id "Amplifier_Operational:LT6237")
+		(at 238.76 132.08 0)
 		(unit 3)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1874,8 +1842,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "2f788b70-b540-4dfe-b33e-99379177ae36")
-		(property "Reference" "U1"
+		(uuid "13d2c498-b2ff-4a3d-b235-7db9d3d93188")
+		(property "Reference" "U2"
 			(at 237.49 130.8099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1886,7 +1854,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "OPA2197xD"
+		(property "Value" "LT6237"
 			(at 237.49 133.3499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1897,7 +1865,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+		(property "Footprint" ""
 			(at 238.76 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -1908,8 +1876,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/opa2197.pdf"
-			(at 242.57 128.27 0)
+		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/623637fb.pdf"
+			(at 238.76 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1919,8 +1887,8 @@
 				)
 			)
 		)
-		(property "Description" "Dual 36V, Precision, Rail-to-Rail Input/Output, Low Offset Voltage, Operational Amplifier, SOIC-8"
-			(at 236.22 132.08 0)
+		(property "Description" "Dual 215MHz, Rail-to-Rail Output, 1.1nV/√Hz, 3.5mA, Operational Amplifier, MSOP-8/DFN-8"
+			(at 238.76 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1930,8 +1898,8 @@
 				)
 			)
 		)
-		(property "Sim.Library" "C:\\Users\\dell5490\\Documents\\GitHub\\KiCad-Projects\\MCU\\mcu\\spice\\sboma34d\\OPAx197.LIB"
-			(at 236.22 132.08 0)
+		(property "Sim.Library" "C:\\Users\\dell5490\\Downloads\\lt6237.lib"
+			(at 238.76 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1941,8 +1909,8 @@
 				)
 			)
 		)
-		(property "Sim.Name" "AOL_1_OPAx197"
-			(at 236.22 132.08 0)
+		(property "Sim.Name" "LT6237"
+			(at 238.76 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1953,7 +1921,7 @@
 			)
 		)
 		(property "Sim.Device" "SUBCKT"
-			(at 236.22 132.08 0)
+			(at 238.76 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1963,8 +1931,8 @@
 				)
 			)
 		)
-		(property "Sim.Pins" "1=VC+ 2=VC- 3=IOUT+ 4=IOUT-"
-			(at 236.22 132.08 0)
+		(property "Sim.Pins" "1=1 2=2 3=3 4=4 5=5"
+			(at 238.76 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1973,35 +1941,35 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(pin "8"
-			(uuid "26f020ea-aa95-4ae9-91dd-2ed9519d8daf")
-		)
-		(pin "2"
-			(uuid "1669230d-c9c8-4e7d-9c45-f564487da8b9")
-		)
-		(pin "1"
-			(uuid "8bc8e1bc-42ef-469d-b1f4-d5aa2eb526f0")
 		)
 		(pin "7"
-			(uuid "511040bd-2bb5-47a1-b979-93375974c6af")
+			(uuid "153e97a6-6111-4e07-a487-79b8fc0fda22")
 		)
-		(pin "4"
-			(uuid "4a82d003-d672-4f77-b833-6bbf57f5054e")
+		(pin "8"
+			(uuid "688060bd-eb56-49d6-bb6c-1984a9fd7d28")
 		)
-		(pin "3"
-			(uuid "f0b319f3-436c-46da-8d18-b11683938302")
-		)
-		(pin "5"
-			(uuid "dd61d042-9770-405c-8dc9-0f7e8bdb3963")
+		(pin "1"
+			(uuid "82b21ac7-aa49-4423-87dc-0258dd768f50")
 		)
 		(pin "6"
-			(uuid "d12fa0cc-8e55-4a04-a64e-d49487eeda0f")
+			(uuid "8c813909-110a-47a5-99f5-86a51f7aed11")
+		)
+		(pin "2"
+			(uuid "0fb60967-ccc3-4308-917f-8dffd776ccd4")
+		)
+		(pin "5"
+			(uuid "c3ab3418-ffb3-4523-b281-bb05b70ae0b7")
+		)
+		(pin "4"
+			(uuid "e94dc3f2-38e9-4720-afbb-7608b3b40816")
+		)
+		(pin "3"
+			(uuid "553ceecf-4922-479f-8134-ed5af645a345")
 		)
 		(instances
 			(project "test"
 				(path "/9ebc8f60-7785-4f9c-88f0-fbcaa14ee8f3"
-					(reference "U1")
+					(reference "U2")
 					(unit 3)
 				)
 			)
@@ -2166,8 +2134,150 @@
 		)
 	)
 	(symbol
+		(lib_id "Amplifier_Operational:LT6237")
+		(at 229.87 46.99 0)
+		(unit 2)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6882b8a9-f5f8-4e9c-a8be-98cfd2839ddd")
+		(property "Reference" "U2"
+			(at 229.87 36.83 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LT6237"
+			(at 229.87 39.37 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 229.87 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/623637fb.pdf"
+			(at 229.87 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Dual 215MHz, Rail-to-Rail Output, 1.1nV/√Hz, 3.5mA, Operational Amplifier, MSOP-8/DFN-8"
+			(at 229.87 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Library" "C:\\Users\\dell5490\\Downloads\\lt6237.lib"
+			(at 229.87 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Name" "LT6237"
+			(at 229.87 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "SUBCKT"
+			(at 229.87 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=1 2=2 3=3 4=4 5=5"
+			(at 229.87 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "7"
+			(uuid "153e97a6-6111-4e07-a487-79b8fc0fda22")
+		)
+		(pin "8"
+			(uuid "688060bd-eb56-49d6-bb6c-1984a9fd7d28")
+		)
+		(pin "1"
+			(uuid "82b21ac7-aa49-4423-87dc-0258dd768f50")
+		)
+		(pin "6"
+			(uuid "8c813909-110a-47a5-99f5-86a51f7aed11")
+		)
+		(pin "2"
+			(uuid "0fb60967-ccc3-4308-917f-8dffd776ccd4")
+		)
+		(pin "5"
+			(uuid "c3ab3418-ffb3-4523-b281-bb05b70ae0b7")
+		)
+		(pin "4"
+			(uuid "e94dc3f2-38e9-4720-afbb-7608b3b40816")
+		)
+		(pin "3"
+			(uuid "553ceecf-4922-479f-8134-ed5af645a345")
+		)
+		(instances
+			(project "test"
+				(path "/9ebc8f60-7785-4f9c-88f0-fbcaa14ee8f3"
+					(reference "U2")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Simulation_SPICE:VDC")
-		(at 236.22 144.78 0)
+		(at 236.22 144.78 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2178,25 +2288,25 @@
 		(fields_autoplaced yes)
 		(uuid "6907e49d-e6d1-4430-b94c-49877e46ca98")
 		(property "Reference" "V2"
-			(at 240.03 143.3801 0)
+			(at 240.03 143.6397 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Value" "5"
-			(at 240.03 145.9201 0)
+			(at 240.03 146.1797 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" ""
@@ -2486,148 +2596,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Amplifier_Operational:OPA2197xD")
-		(at 146.05 52.07 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7348d467-66ba-4f4b-97ab-d4c2d4c54732")
-		(property "Reference" "U1"
-			(at 146.05 41.91 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "OPA2197xD"
-			(at 146.05 44.45 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 148.59 52.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/opa2197.pdf"
-			(at 152.4 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Dual 36V, Precision, Rail-to-Rail Input/Output, Low Offset Voltage, Operational Amplifier, SOIC-8"
-			(at 146.05 52.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Library" "C:\\Users\\dell5490\\Documents\\GitHub\\KiCad-Projects\\MCU\\mcu\\spice\\sboma34d\\OPAx197.LIB"
-			(at 146.05 52.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Name" "AOL_1_OPAx197"
-			(at 146.05 52.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "SUBCKT"
-			(at 146.05 52.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=VC+ 2=VC- 3=IOUT+ 4=IOUT-"
-			(at 146.05 52.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "8"
-			(uuid "26f020ea-aa95-4ae9-91dd-2ed9519d8db0")
-		)
-		(pin "2"
-			(uuid "1669230d-c9c8-4e7d-9c45-f564487da8ba")
-		)
-		(pin "1"
-			(uuid "8bc8e1bc-42ef-469d-b1f4-d5aa2eb526f1")
-		)
-		(pin "7"
-			(uuid "511040bd-2bb5-47a1-b979-93375974c6b0")
-		)
-		(pin "4"
-			(uuid "4a82d003-d672-4f77-b833-6bbf57f5054f")
-		)
-		(pin "3"
-			(uuid "f0b319f3-436c-46da-8d18-b11683938303")
-		)
-		(pin "5"
-			(uuid "dd61d042-9770-405c-8dc9-0f7e8bdb3964")
-		)
-		(pin "6"
-			(uuid "d12fa0cc-8e55-4a04-a64e-d49487eeda10")
-		)
-		(instances
-			(project "test"
-				(path "/9ebc8f60-7785-4f9c-88f0-fbcaa14ee8f3"
-					(reference "U1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 214.63 48.26 0)
 		(unit 1)
@@ -2792,148 +2760,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Amplifier_Operational:OPA2197xD")
-		(at 229.87 46.99 0)
-		(unit 2)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a171ffcb-30b6-4be7-9e93-e89316ed2792")
-		(property "Reference" "U1"
-			(at 229.87 36.83 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "OPA2197xD"
-			(at 229.87 39.37 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 232.41 46.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/opa2197.pdf"
-			(at 236.22 43.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Dual 36V, Precision, Rail-to-Rail Input/Output, Low Offset Voltage, Operational Amplifier, SOIC-8"
-			(at 229.87 46.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Library" "C:\\Users\\dell5490\\Documents\\GitHub\\KiCad-Projects\\MCU\\mcu\\spice\\sboma34d\\OPAx197.LIB"
-			(at 229.87 46.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Name" "AOL_1_OPAx197"
-			(at 229.87 46.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "SUBCKT"
-			(at 229.87 46.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=VC+ 2=VC- 3=IOUT+ 4=IOUT-"
-			(at 229.87 46.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "8"
-			(uuid "26f020ea-aa95-4ae9-91dd-2ed9519d8db1")
-		)
-		(pin "2"
-			(uuid "1669230d-c9c8-4e7d-9c45-f564487da8bb")
-		)
-		(pin "1"
-			(uuid "8bc8e1bc-42ef-469d-b1f4-d5aa2eb526f2")
-		)
-		(pin "7"
-			(uuid "511040bd-2bb5-47a1-b979-93375974c6b1")
-		)
-		(pin "4"
-			(uuid "4a82d003-d672-4f77-b833-6bbf57f50550")
-		)
-		(pin "3"
-			(uuid "f0b319f3-436c-46da-8d18-b11683938304")
-		)
-		(pin "5"
-			(uuid "dd61d042-9770-405c-8dc9-0f7e8bdb3965")
-		)
-		(pin "6"
-			(uuid "d12fa0cc-8e55-4a04-a64e-d49487eeda11")
-		)
-		(instances
-			(project "test"
-				(path "/9ebc8f60-7785-4f9c-88f0-fbcaa14ee8f3"
-					(reference "U1")
-					(unit 2)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 175.26 49.53 90)
 		(unit 1)
@@ -2955,7 +2781,7 @@
 				)
 			)
 		)
-		(property "Value" "49.6k"
+		(property "Value" "51.1k"
 			(at 175.26 45.72 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3041,7 +2867,7 @@
 				)
 			)
 		)
-		(property "Value" "107k"
+		(property "Value" "105k"
 			(at 198.12 40.64 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3100,6 +2926,148 @@
 			(project "mcu"
 				(path "/a05656f2-56dd-4122-820d-a34d3928231b/090f5bd0-76cd-4f87-9c27-4571509190da"
 					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:LT6237")
+		(at 146.05 52.07 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d1c85855-8a2a-4675-8273-8ccec5e976d2")
+		(property "Reference" "U2"
+			(at 146.05 41.91 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LT6237"
+			(at 146.05 44.45 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 146.05 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/623637fb.pdf"
+			(at 146.05 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Dual 215MHz, Rail-to-Rail Output, 1.1nV/√Hz, 3.5mA, Operational Amplifier, MSOP-8/DFN-8"
+			(at 146.05 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Library" "C:\\Users\\dell5490\\Downloads\\lt6237.lib"
+			(at 146.05 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Name" "LT6237"
+			(at 146.05 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "SUBCKT"
+			(at 146.05 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=1 2=2 3=3 4=4 5=5"
+			(at 146.05 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "7"
+			(uuid "153e97a6-6111-4e07-a487-79b8fc0fda22")
+		)
+		(pin "8"
+			(uuid "688060bd-eb56-49d6-bb6c-1984a9fd7d28")
+		)
+		(pin "1"
+			(uuid "82b21ac7-aa49-4423-87dc-0258dd768f50")
+		)
+		(pin "6"
+			(uuid "8c813909-110a-47a5-99f5-86a51f7aed11")
+		)
+		(pin "2"
+			(uuid "0fb60967-ccc3-4308-917f-8dffd776ccd4")
+		)
+		(pin "5"
+			(uuid "c3ab3418-ffb3-4523-b281-bb05b70ae0b7")
+		)
+		(pin "4"
+			(uuid "e94dc3f2-38e9-4720-afbb-7608b3b40816")
+		)
+		(pin "3"
+			(uuid "553ceecf-4922-479f-8134-ed5af645a345")
+		)
+		(instances
+			(project "test"
+				(path "/9ebc8f60-7785-4f9c-88f0-fbcaa14ee8f3"
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -3503,7 +3471,7 @@
 				)
 			)
 		)
-		(property "Sim.Params" "dc=0 ampl=1 f=50 ac=1"
+		(property "Sim.Params" "dc=0 ampl=0 f=50 ac=1"
 			(at 44.45 98.9301 0)
 			(show_name no)
 			(do_not_autoplace no)

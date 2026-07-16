@@ -32,6 +32,52 @@
           "trace_type": 521
         }
       ]
+    },
+    {
+      "analysis": "DC",
+      "commands": [
+        ".dc V3 -1 1 1m",
+        ".kicad adjustpaths",
+        ".save all",
+        ".probe alli",
+        ".probe allp"
+      ],
+      "dottedSecondary": true,
+      "margins": {
+        "bottom": 45,
+        "left": 70,
+        "right": 160,
+        "top": 30
+      },
+      "measurements": [],
+      "showGrid": true,
+      "traces": [
+        {
+          "color": "rgb(55, 126, 184)",
+          "signal": "P(V3)",
+          "trace_type": 2064
+        },
+        {
+          "color": "rgb(228, 26, 28)",
+          "signal": "V(/Out)",
+          "trace_type": 2049
+        },
+        {
+          "color": "rgb(255, 127, 0)",
+          "signal": "V(Net-_U1A--_)",
+          "trace_type": 2049
+        },
+        {
+          "color": "rgb(77, 175, 74)",
+          "signal": "V(Net-_U1C-V+_)",
+          "trace_type": 2049
+        },
+        {
+          "color": "rgb(152, 78, 163)",
+          "signal": "V(Net-_U1C-V-_)",
+          "trace_type": 2049
+        }
+      ]
     }
   ],
   "user_defined_signals": [],

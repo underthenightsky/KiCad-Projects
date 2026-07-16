@@ -1,0 +1,25 @@
+LTspice 26.0.2 for Windows
+Circuit: C:\Users\dell5490\Downloads\DesignFiles\TransientAnalysis.net
+Start Time: Thu Jul 16 12:50:34 2026
+solver = Normal
+Maximum thread count: 4
+tnom = 27
+temp = 27
+method = trap
+ERROR: Node out is floating and connected to current source stage2:u1:u2:B17
+WARNING: Node stage2:n001 is floating.
+ERROR: Node stage2:nc_02 is floating and connected to current source stage2:u1:u1:B17
+ERROR: Node stage1:nc_02 is floating and connected to current source stage1:u1:u1:B17
+
+Direct Newton iteration failed to find operating point.
+Starting Gmin stepping
+Gmin stepping succeeded in finding the operating point.
+
+Singular matrix:  Check node stage1:nc_04
+   Iteration No. 2
+Total elapsed time: 0.000 seconds.
+Singular matrix:  check node stage1:nc_04
+   Iteration No. 2
+
+This circuit has floating nodes.
+Try menu command View=>SPICE Error Log.
